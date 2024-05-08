@@ -1,6 +1,7 @@
 #include<iostream>
 #include "stack.h"
 #include "linkedlist.h"
+#include "LinkedListStack.h"
 using namespace std;
 
 class LinkedListStack:public Stack
@@ -15,4 +16,13 @@ class LinkedListStack:public Stack
     int top();
     bool isEmpty();
 
-} 
+    private:
+      LinkedList l;
+
+
+} ;
+
+void LinkedListStack::push(int item)
+{
+    l.addToHead(4);
+};
