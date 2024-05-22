@@ -41,6 +41,6 @@ int main()
     cout<<"The front element is :"<<data<<endl;
     queue2->rear(data);
     cout<<"The rear element is :"<<data<<endl;
-    queue2->traverse();2
+    queue2->traverse();
 
 }
