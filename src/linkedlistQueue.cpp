@@ -49,15 +49,3 @@ void LinkedListQueue::traverse()
     list.Traverse();
 }
 
-int main()
-{
-    LinkedListQueue Queue;
-    int data;
-    Queue.enQueue(2);
-    Queue.enQueue(4);
-    Queue.enQueue(8);
-    Queue.traverse();
-    Queue.deQueue(data);
-    std::cout<<"\nThe deQueued data is : "<<data<<std::endl;
-    Queue.traverse();
-}

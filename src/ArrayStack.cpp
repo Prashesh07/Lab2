@@ -79,15 +79,3 @@ void ArrayStack::traverse()
     std::cout<<"The Stack is empty \n";
 }
 
-int main()
-{  
-    int data;
-    ArrayStack Stack(10);
-    Stack.push(2);
-    Stack.push(4);
-    Stack.push(8);
-    Stack.push(9);
-    Stack.pop(data);
-    std::cout<<"The removed data is "<<data<<std::endl;
-    Stack.traverse();
-}

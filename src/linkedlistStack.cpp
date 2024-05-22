@@ -52,21 +52,3 @@ void LinkedListStack::traverse()
         std::cout << "The Stack is empty";
 }
 
-int main()
-{
-    LinkedListStack Stack;
-    int data;
-    if (Stack.isEmpty())
-    {
-        std::cout << "The stack is Empty \n";
-    }
-    Stack.push(2);
-    Stack.push(4);
-    Stack.push(8);
-    Stack.push(9);
-    Stack.pop(data);
-    std::cout << "The removed data is " << data << std::endl;
-    Stack.top(data);
-    std::cout << "The data  at the top is \n" << data;
-    Stack.traverse();
-}
