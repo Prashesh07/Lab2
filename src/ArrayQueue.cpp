@@ -1,4 +1,4 @@
-#include "Queue.h"
+#include "../include/Queue.h"
 #include <iostream>
 
 ArrayQueue::ArrayQueue(int x) : size(x), topindex(-1), data(new int[size]) {}

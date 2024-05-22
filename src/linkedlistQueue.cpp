@@ -1,5 +1,5 @@
-#include "Queue.h"
-#include "LinkedList.h"
+#include "../include/Queue.h"
+#include "../include/linkedlist.h"
 #include <iostream>
 
 

@@ -1,6 +1,6 @@
 
-#include "stack.h"
-#include "linkedlist.h"
+#include "../include/stack.h"
+#include "../include/linkedlist.h"
 #include <iostream>
 
 LinkedListStack::LinkedListStack() {}

@@ -1,4 +1,4 @@
-#include "stack.h"
+#include "../include/stack.h"
 #include <iostream>
 ArrayStack::ArrayStack(int size)
     : size(size), topindex(-1), data(new int[size]) {}
