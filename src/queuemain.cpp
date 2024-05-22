@@ -12,9 +12,9 @@ int main()
 
     }
     queue->enQueue(2);
-    queue->enQueue(2);
-    queue->enQueue(2);
-    queue->enQueue(2);
+    queue->enQueue(4);
+    queue->enQueue(8);
+    queue->enQueue(9);
     queue->deQueue(data);
     cout<<"The dequeued element is :"<<data<<endl;
     queue->front(data);
@@ -32,9 +32,9 @@ int main()
 
     }
     queue2->enQueue(2);
-    queue2->enQueue(2);
-    queue2->enQueue(2);
-    queue2->enQueue(2);
+    queue2->enQueue(4);
+    queue2->enQueue(8);
+    queue2->enQueue(9);
     queue2->deQueue(data);
     cout<<"The dequeued element is :"<<data<<endl;
     queue2->front(data);
